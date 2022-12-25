@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Java"
+		},
+		{
+			"path": "../../../Engineers pocket"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HMTLCSS"
+	}
+}
