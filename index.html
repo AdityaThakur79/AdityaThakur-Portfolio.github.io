@@ -11,6 +11,7 @@
     <Script src="https://code.jquery.com/jquery-3.5.1.min.js"></Script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="CSS-SCRIPT/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/d9b9d3130f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -30,7 +31,7 @@
                     <li><a href="#contact">Contact Me</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
-                <img src="Images/moon.png" alt="moon" id="icon">
+                <img src="Assets/Images/moon.png" alt="moon" id="icon">
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </div>
         </div>
@@ -55,11 +56,11 @@
     </div>
 
     <!-- About me section -->
-    <div id="about">
-        <div class="conatiner">
+    <div id="about" data-aos="fade-up">
+        <div class="conatiner"  >
             <div class="row">
                 <div class="about-col-1">
-                    <img src="Images/pp.jpeg" alt="Pic">
+                    <img src="Assets/Images/pp.jpeg" alt="Pic">
                 </div>
 
                 <div class="about-col-2">
@@ -98,8 +99,8 @@
     </div>
 
     <!-- skills section -->
-    <div class="skills_section" id="skills">
-        <div class="skills_head">
+    <div class="skills_section" id="skills" data-aos="fade-up">
+        <div class="skills_head"  >
             <h2>My <span>Skills</span></h2>
             <p>Here is my skills to represent my Expertise</p>
         </div>
@@ -149,7 +150,7 @@
             <div class="skill_bar">
                 <div class="info">
                     <p>React js</p>
-                    <P>0%</P>
+                    <P>50%</P>
                 </div>
                 <div class="bar">
                     <span class="react"></span>
@@ -158,8 +159,8 @@
 
             <div class="skill_bar">
                 <div class="info">
-                    <p>Node js</p>
-                    <P>0%</P>
+                    <p>SpringBoot</p>
+                    <P>20%</P>
                 </div>
                 <div class="bar">
                     <span class="node"></span>
@@ -168,8 +169,8 @@
 
             <div class="skill_bar">
                 <div class="info">
-                    <p>Express js</p>
-                    <P>0%</P>
+                    <p>MYSQL</p>
+                    <P>20%</P>
                 </div>
                 <div class="bar">
                     <span class="express"></span>
@@ -189,12 +190,12 @@
     </div>
 
     <!-- my work section -->
-    <div id="portfolio">
-        <div class="container">
+    <div id="portfolio"  data-aos="fade-up">
+        <div class="container" >
             <h1 class="sub-title">My Portfolio</h1>
             <div class="work-list">
-                <div class="work-1">
-                    <img src="Images/work-1.png" alt="work-1">
+                <div class="work-1"  data-aos="fade-up">
+                    <img src="Assets/Images/work-1.png" alt="work-1">
                     <div class="layer">
                         <h3>RedStore(E-commerce Website)</h3>
                         <p>RedStore is a E-commerce website of clothing and shoes brands.The website made is fully
@@ -205,8 +206,8 @@
                     </div>
                 </div>
 
-                <div class="work-1">
-                    <img src="Images/work-2.png" alt="work-2">
+                <div class="work-1"  data-aos="fade-up">
+                    <img src="Assets/Images/work-2.png" alt="work-2">
                     <div class="layer">
                         <h3>Engineer's Pocket</h3>
                         <p>This website is for Engineering students studying in mumbai or Pune university.It contain all the study materials required from online pdf of books to solution of pyqs.
@@ -216,8 +217,8 @@
                     </div>
                 </div>
 
-                <div class="work-1">
-                    <img src="Images/work-3.png" alt="work-3">
+                <div class="work-1"  data-aos="fade-up">
+                    <img src="Assets/Images/work-3.png" alt="work-3">
                     <div class="layer">
                         <h3>Graduate School</h3>
                         <p>Graduate School is a learning platform for students where they can find courses
@@ -226,8 +227,8 @@
                     </div>
                 </div>
 
-                <div class="work-1">
-                    <img src="Images/work-4.png" alt="work-3">
+                <div class="work-1"  data-aos="fade-up">
+                    <img src="Assets/Images/work-4.png" alt="work-3">
                     <div class="layer">
                         <h3>Hair Saloon</h3>
                         <p>It is a Basic Hair saloon website which shows features , services , Reviews and contact
@@ -236,16 +237,17 @@
                     </div>
                 </div>
             </div>
-            <a href="my works/All work/allwork.html" class="btn">See More</a>
+            <a href="All work/allwork.html" target="_blank" class="btn">See More</a>
         </div>
     </div>
+    <!-- Portfolio ends -->
 
     <!-- Services section -->
-    <div id="services">
+    <div id="services"  data-aos="fade-up">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
-                <div>
+                <div  data-aos="fade-up">
                     <i class="fas fa-code"></i>
                     <h2>Web Development</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum consequatur eaque veritatis,
@@ -253,7 +255,7 @@
                     <a href="services/webdev.html">Learn More</a>
                 </div>
 
-                <div>
+                <div  data-aos="fade-up">
                     <i class="fas fa-crop"></i>
                     <h2>Web Design</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum consequatur eaque veritatis,
@@ -261,7 +263,7 @@
                     <a href="services/webdesign.html">Learn More</a>
                 </div>
 
-                <div>
+                <div  data-aos="fade-up">
                     <i class="fas fa-graduation-cap"></i>
                     <h2>College Projects</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum consequatur eaque veritatis,
@@ -270,7 +272,7 @@
                 </div>
             </div>
         </div>
-        <div class="text">
+        <div class="text"  data-aos="fade-up">
             <h1>
                 Let me get you a <span> Beautiful </span> website
             </h1>
@@ -279,7 +281,7 @@
     </div>
 
     <!-- contact-us section -->
-    <div id="contact">
+    <div id="contact"  data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -307,7 +309,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright &copy; Aditya Thakur 2022</p>
+            <p>Copyright &copy; Aditya Thakur 2023</p>
         </div>
     </div>
     <!-- toggle menu -->
@@ -349,13 +351,17 @@
         icon.onclick = function () {
             document.body.classList.toggle("dark-theme");
             if (document.body.classList.contains("dark-theme")) {
-                icon.src = "sun.png";
+                icon.src = "Assets/Images/sun.png";
             } else {
-                icon.src = "moon.png";
+                icon.src = "Assets/Images/moon.png";
             }
         }
     </script>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
